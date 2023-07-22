@@ -1,0 +1,362 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>中华一番包子</title>
+<link rel="shortcut icon" href="https://oliwill.GitHub.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://oliwill.GitHub.io/media/css/tailwind.css">
+<link rel="stylesheet" href="https://oliwill.GitHub.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="中华一番包子 - Atom Feed" href="https://oliwill.GitHub.io/atom.xml">
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TH51JWGY7T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-TH51JWGY7T');
+  </script>
+    
+
+  <meta name="description" content="「每天把没意义的傻话挂在嘴上，却用一种引人注目的方式咏唱着。」
+——又吉直树《火花》" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://oliwill.GitHub.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto ">
+      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      中华一番包子
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      「每天把没意义的傻话挂在嘴上，却用一种引人注目的方式咏唱着。」
+——又吉直树《火花》
+    </div>
+    
+    
+      <div class="mt-8 flex items-center">
+        
+          <div class="text-gray-500 mr-2">
+            Email to me 👉
+          </div>
+        
+        
+          
+        
+          
+            
+              <a href="mailto:realmanju@protonmail.com" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
+                <i class="ri-mail-line"></i>
+              </a>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://oliwill.GitHub.io/images/avatar.png?v=1690012686803" alt="中华一番包子" width="100%" height="100%">
+  </div>
+</header>
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://oliwill.GitHub.io/post/xiang-chu-zhi-dao/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          相处之道
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-12-22</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        所谓「相处之道」就是，「早晚都要阳的」只对自己说，绝不对别人说。
+我们并没有权利以个人的便利，就把风险平摊给她人。最近的见闻让人开始相信，广播、墙上刷大字报等手段，依旧是有效且强力的宣传方式。
+
+      </div>
+      <a href="https://oliwill.GitHub.io/post/xiang-chu-zhi-dao/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://oliwill.GitHub.io/post/huo-yong-cuo-zi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          活用错字
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-11-06</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        吴青峰在[《下班去吃饭》]里提到自己是一个不怎么在意错字的人，他觉得『错字会反应一个人对这个字的一种「创造力」』。
+
+这是一份工作，你是专业的，就不要干业余的人也能轻易做到的事。
+所谓取法其上得其中，是对创作最基本的追求。
+写谐音梗、用网络...
+      </div>
+      <a href="https://oliwill.GitHub.io/post/huo-yong-cuo-zi/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://oliwill.GitHub.io/post/wo-men-jiu-jing-zai-xiao-fei-shi-me/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          我们究竟在消费什么？
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-06-19</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        当我们在消费时，我们究竟在消费什么呢？
+是为了获得功能性满足？取得身份认同？还是为了「幸福感」？
+@一天世界
+
+如很多人说过，专业意味着在任何条件下都能保持稳定、均衡的产出。工具的稳定是产出稳定的前提。如果没有什么特别好的理由——甚至已经有...
+      </div>
+      <a href="https://oliwill.GitHub.io/post/wo-men-jiu-jing-zai-xiao-fei-shi-me/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://oliwill.GitHub.io/post/liao-ting-cai-dan-no5-jiang-xin-zhu-ru/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          料亭菜单 NO.5——将心注入
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-05-16</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        这两个月的上海居民似乎集体陷入了土拨鼠之日，每天都是 14 天的第一天。在这不停循环的日子中，有没有意外地发现自己每天重复也不会感到腻烦，甚至愿意投入更多时间和精力想要做得更好的事情呢？
+『我啊，是为了表演足以推翻世界常识的漫才而走上这条路...
+      </div>
+      <a href="https://oliwill.GitHub.io/post/liao-ting-cai-dan-no5-jiang-xin-zhu-ru/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://oliwill.GitHub.io/post/liao-ting-cai-dan-no4-zu-bu-chu-hu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          料亭菜单 NO.4——足不出户
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-04-18</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        很抱歉，好久不见。
+之前因为工作的原因，实在没有心力制作菜单，而当认为可以喘口气时候又开始了居家办公，目前已经居家了 30 多天。刚毕业的时候会以「足不出沪可以……」为主题介绍上海的一些店铺，如今倒是可以写一些与「足不出户」相关的 tips...
+      </div>
+      <a href="https://oliwill.GitHub.io/post/liao-ting-cai-dan-no4-zu-bu-chu-hu/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://oliwill.GitHub.io/post/liao-ting-cai-dan-no2-ci-bu-da-yi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          料亭菜单 NO.3——词不达意
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-04-15</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        欢迎光临，
+假设妳有一位长辈，他的左手常年绑着绷带，并且看起来只有半截手掌，妳会对此产生好奇吗？如果会的话，妳会怎么向这位长辈提问呢？妳会问他「师父，我是听高山先生说的，妳那只左手……听说是妳饿得受不了，自己吃掉的，请问是真的吗？」
+《浅野...
+      </div>
+      <a href="https://oliwill.GitHub.io/post/liao-ting-cai-dan-no2-ci-bu-da-yi/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://oliwill.GitHub.io/post/liao-ting-sheng-dan-can-no3/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          料亭圣诞餐 NO.2
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-12-30</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        欢迎光临，
+以及 Merry Christmas（虽然各位收到的时候圣诞节已经过去了），
+25 号上午在电影院看了《爱情神话》，关于这部影片的优秀已经有不少人讲了，我个人也很喜欢，喜欢的理由很简单——亲切。浦西人的精明、幽默、文艺还有那些爱...
+      </div>
+      <a href="https://oliwill.GitHub.io/post/liao-ting-sheng-dan-can-no3/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://oliwill.GitHub.io/post/liao-ting-cai-dan-no1/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          料亭菜单 NO.1
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-12-12</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        这里是平成中华料亭包楽，我是主理人包子。这是本料亭寄出的第一份 newsletter，初步计划每篇 newsletter 将由 4 部分构成，あくび指南（一首音乐），馒头怖い（一道菜谱），茶の汤（一款酒）和芝浜（一篇阅读笔记）。
+之前立过一...
+      </div>
+      <a href="https://oliwill.GitHub.io/post/liao-ting-cai-dan-no1/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://oliwill.GitHub.io/post/xue-xi-gao-bie/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          学习告别
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-10-30</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        中秋回家，家里照旧只有父亲和奶奶，母亲又不在家。
+下午去外婆家，母亲坐在外婆床边，两个侄子（或许该叫外甥？）在一旁玩纸箱。外婆闭着眼，费力地喘气，像一台漏风的风箱。这是我第一次见到外婆这样没精神，人瘦脱了形，唯一不变的就是发出的声音还是很大...
+      </div>
+      <a href="https://oliwill.GitHub.io/post/xue-xi-gao-bie/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://oliwill.GitHub.io/post/yi-zhou-xiao-ji-orpao-cai-guo-he-leng-cui/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          一周小记｜泡菜锅和冷萃
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-08-22</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        周末厨房
+泡菜锅
+夏天通常胃口不大好，吃酸辣口的泡菜锅容易下饭，营养也均衡。泡菜锅是韩国的家常菜，几乎每家每户都有自己的做饭，这次参考的是韩国厨师孙荣的做法，实践后整理出来的。
+食材
+
+青葱：20 克
+糯米椒：20 克
+大蒜：20 克
+洋葱...
+      </div>
+      <a href="https://oliwill.GitHub.io/post/yi-zhou-xiao-ji-orpao-cai-guo-he-leng-cui/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
+    
+    
+      <a href="https://oliwill.GitHub.io/page/2" class="btn btn-white">
+        下一页
+        <i class="ri-arrow-right-line ml-4"></i>
+      </a>
+    
+  </div>
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>,© 2020 - Copyright 包子. All Rights Reserved.
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://oliwill.GitHub.io/media/scripts/main.js"></script>
+</body>
+
+</html>
